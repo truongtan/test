@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listselector"
+    android:orientation="vertical"
+    android:padding="0px" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#E5E5E5"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/listselector"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imgAnhDanhMuc"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_launcher" />
+
+            <TextView
+                android:id="@+id/tvTenDanhMuc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Ten Danh Muc"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

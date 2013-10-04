@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/cach_lam.xml" />
+        <ignore path="res/layout/layout_list_danhmuc.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/cach_lam.xml" />
+        <ignore path="res/layout/layout_list_danhmuc.xml" />
+    </issue>
+    <issue id="ScrollViewSize">
+        <ignore path="res/layout/cach_lam.xml" />
+    </issue>
+</lint>

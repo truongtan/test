@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Món Ngon</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <color name="green">#B3C833</color>
+    <color name="white">#FFFFFF</color>
+
+    <string name="title_activity_chi_tiet">ChiTiet</string>
+
+</resources>
